@@ -1,0 +1,77 @@
+#navs
+{
+
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:1px;
+    left:0px;
+    width: 100vw;
+    background-color:rgb(0, 0, 0,0.5)
+}
+#navs h1
+{
+    position:fixed;
+    left: 11px;
+color: orange;
+font-family: cursive;
+}
+
+#navs ul li
+{
+    margin-top: 11px;
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+    padding:3px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+a
+{
+text-decoration: none;
+color: white;
+}
+
+a:hover
+{
+    color: yellow;
+    background-color: white;
+
+}
+
+#chef
+{
+    margin-top: 100px;
+}
+#chef_row
+{
+    display: flex;
+    padding: 5px;
+    margin-left: 59px;
+    margin-right: 59px;
+    justify-content: space-between;
+
+}
+
+#chef_column
+{
+    padding: 10px;
+    
+
+}
+
+#chef h2
+{
+    text-align: center;
+    font-family: cursive;
+}
+
+img
+{
+    height: 300px;
+    width:300px;
+}
+

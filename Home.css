@@ -1,0 +1,73 @@
+body
+{
+    background-color: black;
+    background-image: url('homee.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: larger;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+
+#navs
+{
+
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:1px;
+    left:0px;
+    width: 100vw;
+    background-color:rgb(0, 0, 0,0.5)
+}
+#navs h1
+{
+    position:fixed;
+    left: 11px;
+color: orange;
+/* text-align: center; */
+font-family: cursive;
+}
+
+#navs ul li
+{
+    margin-top: 11px;
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+    padding:3px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover
+{
+    color: yellow;
+    background-color: white;
+
+}
+
+.heads
+{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 320px;
+    width: 100vw;
+    background-color: transparent;
+   
+}
